@@ -136,3 +136,6 @@ dmypy.json
 !data/__init__.py
 data/*.*
 data/*/
+
+# Tests
+tests/.pytest_cache
