@@ -18,6 +18,17 @@ def X():
 
 
 @pytest.fixture
+def X_miss():
+    return np.array([
+        [6, 3, 3],
+        [-2, 2, 2],
+        [np.nan, 1, -5],
+        [np.nan, 4, -1],
+        [2, -4, 2]
+    ])
+
+
+@pytest.fixture
 def L():
     return np.array([
         [-5.27, 5, -1.1],
